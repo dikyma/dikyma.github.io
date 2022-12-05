@@ -1,0 +1,163 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #222950;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+/* satu */
+.satu-center{
+    display: flex;
+    justify-content: center;
+    padding: 33px 0;
+}
+.satu{
+    border: 2px solid black;
+    width: 724px;
+    display: flex;
+    height: 340px;  
+    box-shadow:-30px 30px 0 rgba(0,0,0,0.3) ;
+}
+.satu img{
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: 38px 38px;
+}
+.satu .satu-title{
+    display: flex;
+    flex-direction: column;
+    margin: 35px 0;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 115px;
+}
+.satu .satu-title p{
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+.satu .satu-title h2{
+    color: red;
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+}
+/* dua */
+.dua{
+    padding: 0 189px;
+}
+.dua h1{
+    padding: 0;
+    margin: 0;
+    margin-left: 20px;
+}
+.dua .dua-hijau{
+    border: 2px solid cyan;
+    background-color: cyan;
+    width: 160px;
+    height: 4px;
+}
+.dua .dua-putih{
+    margin: 5px 0;
+    border: 2px solid white;
+    background-color: white;
+    width: 120px;
+    height: 4px;
+}
+.dua{
+    gap: 3px;
+}
+.dua .dua-isi-atas{
+    display: flex;
+    justify-content: space-around;
+}
+.dua .dua-isi-atas .BPI .brr-PI{
+    border: 2px solid black;
+    border-left: 15px solid red;
+    width: 50vh;
+    box-shadow:-20px 20px 0 rgba(0,0,0,0.3) ;
+    height: 155px;
+}
+.dua .dua-isi-atas .BPI-2 .brr-PI-2{
+    border: 2px solid black;
+    border-left: 15px solid red;
+    width: 50vh;
+    box-shadow:-20px 20px 0 rgba(0,0,0,0.3) ;
+    height: 155px;
+}
+.dua .dua-isi-atas .BPI-2 .brr-PI-2 .brr-PI-2-P{
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+}
+.dua .dua-isi-atas .BPI-2 .brr-PI-2 .brr-PI-2-P p{
+    padding: 0;
+    margin: 0;
+}
+.dua .dua-isi-bawah{
+    display: flex;
+    justify-content: space-around;
+}
+.dua .dua-isi-bawah .BPI-3 .brr-PI-3{
+    border: 2px solid black;
+    border-left: 15px solid red;
+    width: 50vh;
+    box-shadow:-20px 20px 0 rgba(0,0,0,0.3) ;
+    height: 155px;
+}
+.dua .dua-isi-bawah .BPI-4 .brr-PI-4{
+    border: 2px solid black;
+    border-left: 15px solid red;
+    width: 50vh;
+    box-shadow:-20px 20px 0 rgba(0,0,0,0.3) ;
+    height: 155px;
+}
+.dua .dua-isi-bawah .BPI-4 .brr-PI-4 .brr-PI-4-P{
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+}
+/* tiga */
+.tiga {
+    padding: 20px 189px;
+    margin-top: 35px;
+}
+.tiga h1{
+    padding: 0;
+    margin: 0;
+    margin-left: 20px;
+}
+.tiga .tiga-hijau{
+    border: 2px solid cyan;
+    background-color: cyan;
+    width: 160px;
+    height: 4px;
+}
+.tiga .tiga-putih{
+    margin: 5px 0;
+    border: 2px solid white;
+    background-color: white;
+    width: 120px;
+    height: 4px;
+}
+.tiga .tiga-brr {
+    border: 3px solid black;
+    border-left: none;
+    margin: 30px 50px;
+    height: 100px;
+    box-shadow:-20px 20px 0 rgba(0,0,0,0.3) ;
+}
+.tiga .tiga-brr .tiga-biru{
+    border: 3px solid skyblue;
+    background-color: skyblue;
+    height: 94px;
+    width: 10px;
+    position: absolute;
+}
+.tiga .tiga-brr p{
+    padding: 0px 2px;
+    margin: 18px 50px;
+}
+
